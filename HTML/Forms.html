@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Form </title>
+<style>
+body{
+background-color:lightblue;
+color: blue;
+}
+.frm{
+border: 1px solid black;
+text-align: left;
+margin: 60px;
+padding: 20px
+
+}
+.Gender{
+color: red;
+
+}
+</style>
+</head>
+
+<body>
+<form class="frm">
+<h2 style="color: red;">Employee Details</h2>
+
+<div>
+<label for="name">Name:</label>
+<input type="text" name="EmpName" id="name">
+</div>
+<br>
+
+<div>
+<label for="role">Role:</label>
+<input type="text" name="EmpRole" id="role">
+</div>
+<br>
+
+<div>
+<label for="email">Email:</label>
+<input type="Email" name="EmpEmail" id="email">
+</div>
+<br>
+
+<div>
+<label for="number">Contact Number:</label>
+<input type="tel" name="num" id="number">
+</div>
+<br>
+
+<div>
+<label for="date">Joining Date:</label>
+<input type="date" name="joining" id="date">
+</div>
+<br>
+
+Gender
+<div class="Gender">
+<label for="male">Male</label>
+<input type="radio" name="Gender" id="male">
+<label for="female">Female</label>
+<input type="radio" name="Gender" id="female">
+<label for="other">Other</label>
+<input type="radio" name="Gender" id="other">
+</div>
+<br>
+
+<div>
+<label for="adress">Adress:</label>
+<textarea name="adress"cols="20" rows="5" id="adress"></textarea>
+</div>
+<div>
+<label for="region">Region</label>
+<select id="region">
+<option>Choose your region</option>
+<option>India</option>
+<option>Other</option>
+</select>
+</div>
+<br>
+
+<label for="resume">Upload Resume</label>
+<input type="file" name="file" id="resume">
+<br>
+
+<div>
+<input type="checkbox" name="accept" required id="check">
+<label  for="check">Accept Terms and Conditions</label>
+<div>
+<br>
+
+<button>Submit</button>
+<input type="reset">
+
+</form>
+</body>
+</html>

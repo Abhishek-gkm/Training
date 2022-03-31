@@ -1,0 +1,43 @@
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+
+.tst1{
+    font-size: 40px;
+    color: rgb(136, 18, 18);
+}
+.tst{
+    font-size: 20px;
+    color: grey;
+}
+#test{
+    font-size: 30px;
+    color: green;
+}
+
+
+/* Selectors- class, id, tag name*/
+/* 
+ul{
+    color: blue;
+}
+
+p{
+    font-size: 30px;
+} */
+
+/* background */
+
+.pr-bgrnd{
+    width: 70%;
+    height: 300px;
+    background-image: url('./New_folder/category-1.jpg');
+    background-repeat: no-repeat;
+    background-color: red;
+    background-size: 100px;
+    /* background-position-x: center; */
+    background-position: 10% 50%;
+}

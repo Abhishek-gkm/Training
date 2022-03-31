@@ -1,0 +1,105 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.parent
+{
+    width: 100%;
+}
+
+.child
+{
+    width: 90%;
+    margin: auto;
+}
+
+.left
+{
+    width: 38%;
+    float: left;
+}
+.left img{
+    width: 100%;
+}
+
+.right
+{
+    width: 52%;
+    float: left;
+    margin-left: 10%;
+}
+
+.col
+{
+    width: 80%;
+    margin: auto;
+    float: left;
+}
+
+.sub_col
+{
+    width: 50%;
+    float: left;
+    margin: 2% auto;
+}
+
+.sub_col input
+{
+    width: 83%;
+    padding: 10px 0;
+}
+form .error {
+    color: #ff0000;
+  }
+.sub_radio
+{
+    width: 50%;
+    float: left;
+    margin: 2% auto;
+}
+
+.sub1
+{
+    width: 100%;
+    float: left;
+    margin: 2% auto;
+
+}
+
+.sub1 input{
+    width: 92%;
+    padding: 10px 0;
+}
+
+input ,select{ 
+    border: none;
+    border-bottom: 2px solid grey;
+}
+.sub_check{
+    width: 100%;
+    float: left;
+    margin: 4% auto;
+}
+
+.sub_btn{
+    width: 100%;
+    float: left;
+}
+
+.sub_btn input{
+    width: 91%; 
+    background-color: blue; 
+    color: white;
+    padding: 10px 0;
+    font-size: 15px;
+    letter-spacing: 3px;
+    /* border: 2px solid red; */
+}
+
+.clr
+{
+    color: red;
+}
+
